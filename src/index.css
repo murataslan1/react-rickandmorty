@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+
+}
+.homepage h3 {
+  text-align: center;
+  margin-bottom:40px;
+}
+
+.cards {
+  background:rgb(32, 35, 41);
+  padding:30px;
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+  flex-wrap: wrap;
+  margin:0;
+  list-style:none;
+}
+.cards li {
+  border-radius:6px;
+  overflow:hidden;
+  background:rgb(60, 62, 68);
+  color:#fff;
+  display: flex;
+  flex: 1 0 32%;
+  max-width:32%;
+}
+
+.cards li a {
+  display: flex;
+  flex-direction: row;
+  color:#fff;
+  flex:1;
+}
+.cards li a img {
+  flex:1 0 50%;
+  max-width:50%;
+}
+.cards li a div {
+  flex:1;
+  padding:15px;
+}
+
+
+.cards li h4 {
+  margin: 0px 0px 5px 0px !important;
+  font-size:24px;
+}
+
+.cards li h5 {
+  color:rgba(255,255,255,0.5);
+  font-size:18px;
+  margin: 15px 0px 10px 0px !important;
+}
+
+.detailpage {
+  background:rgb(32, 35, 41);
+}
+
+.detail-header {
+  background:#fff;
+  padding:30px;
+}
+
+.character-detail {
+  padding:30px;
+  color:#fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.character-detail img {
+  border-radius:6px;
+  max-height:200px;
+}
+.character-detail div.info {
+  margin-left:20px;
+}
+
+.loading {
+  background:#fff;
+  padding:15px;
+  display: inline-block;
+  margin:20px;
+  border-radius:6px;
+}
